@@ -28,7 +28,7 @@ const Header = (props: Props) => {
   return (
     <section className="relative">
       <section
-        className={`fixed top-0 left-0 right-0 bg-white ${
+        className={`fixed top-0 left-0 right-0 bg-white z-10 ${
           isScrolled ? "shadow-md" : ""
         }`}
       >

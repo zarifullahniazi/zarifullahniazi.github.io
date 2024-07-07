@@ -47,6 +47,7 @@ const Qualification = (props: Props) => {
               Experience
             </div>
           </div>
+          <hr className="mt-4" />
           <div className="flex mx-auto w-full">
             {education === true ? (
               <div className="">
