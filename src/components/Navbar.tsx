@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 import MaxWidthWrapper from "./MaxWithWrapper";
 import Image from "next/image";
 
-
 type Props = {};
 
 const Header = (props: Props) => {
@@ -38,8 +37,8 @@ const Header = (props: Props) => {
             <div className="flex-shrink-0">
               <a href="" className="">
                 <div className="h-full w-[30px] flex items-center gap-1">
-                  <Image src="./logo-z.svg" alt="logo" />
-                  <Image src="./logo.svg" alt="logo" />
+                  <Image src="./logo-z.svg" alt="logo" height={20} width={20} />
+                  <Image src="./logo.svg" alt="logo" height={20} width={20} />
                 </div>
               </a>
             </div>

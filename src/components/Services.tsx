@@ -24,7 +24,13 @@ const Services = () => {
         <div className="md:grid md:grid-cols-3 md:gap-12 md:px-20 px-10 space-y-12 md:space-y-0">
           <Card className="">
             <CardContent className="p-9">
-              <Image src="/hand.svg" className="mt-16" alt="hand" />
+              <Image
+                src="/hand.svg"
+                className="mt-16"
+                alt="hand"
+                height={30}
+                width={30}
+              />
               <p className="font-semibold w-2/3 py-6 text-1xl">
                 App <br />
                 Developer
@@ -44,7 +50,13 @@ const Services = () => {
           </Card>
           <Card className="">
             <CardContent className="p-9">
-              <Image src="/hand.svg" className="mt-16" alt="somecard" />
+              <Image
+                src="/hand.svg"
+                className="mt-16"
+                alt="somecard"
+                height={30}
+                width={30}
+              />
               <p className="font-semibold w-2/3 py-6 text-1xl">
                 App <br />
                 Developer
@@ -56,7 +68,13 @@ const Services = () => {
           </Card>
           <Card className="">
             <CardContent className="p-9">
-              <Image src="/hand.svg" className="mt-16" alt="" />
+              <Image
+                src="/hand.svg"
+                className="mt-16"
+                alt="somecard"
+                height={30}
+                width={30}
+              />
               <p className="font-semibold w-2/3 py-6 text-1xl">
                 App <br />
                 Developer
